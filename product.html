@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DASHBOARD</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="Dashboard.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="./Asset/logo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="d-flex" id="wrapper">
+        <!-- Sidebar -->
+        <div class="bg-white" id="sidebar-wrapper">
+            <div class="sidebar-heading text-center py-4 secondary-text fs-4 fw-bold text-uppercase border-bottom"><i class="fa-solid fa-leaf me-2"></i>GO-HEAL</div>
+            <div class="list-group list-group-flush my-3">
+                <a href="Dashboard.html" class="list-group-item list-group-item-action bg-transparent second-text active"> <i class="fa-solid fa-star-of-life me-2"></i>DASHBOARD </a>
+          <a href="news.html" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"> <i class="fa-solid fa-notes-medical me-2"></i>NEWS </a>
+          <a href="product.html" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"> <i class="fa-solid fa-mortar-pestle me-2"></i>PRODUCT </a>
+          <a href="index.html" class="list-group-item list-group-item-action bg-transparent text-danger fw-bold"> <i class="fas fa-power-off me-2"></i>LOGOUT </a>
+            </div>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <nav class="navbar navbar-expand-lg navbar-light bg-transparent py-4 px-4">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-align-left third-text fs-4 me-3" id="menu-toggle"></i>
+                    <h2 class="fs-2 m-0 primary-text orders">PRODUCT</h2>
+                </div>
+
+                <button class="navbar-toggler first-color" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse orders" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle third-text fw-bold orders" href="#" id="navbarDropdown"
+                                  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  <i class="fas fa-user me-2 orders"></i>YONDEV
+                              </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Profile</a></li>
+                                <li><a class="dropdown-item" href="#">Settings</a></li>
+                                <li><a class="dropdown-item" href="sign-up.html">Logout</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="container">
+              <div class="row">
+            <div class="col-4 d-flex justify-content-center align-items-center mb-5">
+              <div class="card" style="width: 20rem">
+                <img src="./Asset/jahe.png" class="card-img-top" alt="jahe" />
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-12 my-lg-2 my-sm-2">
+                      <h5 class="card-title text-center fw-bold fs-4 text-success">Serbuk Jahe</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 d-flex justify-content-center align-items-center mb-5">
+              <a href="#" class="text-decoration-none">
+                <div class="card" style="width: 20rem">
+                  <img src="./Asset/madu.png" class="card-img-top" alt="jahe" />
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-12 my-lg-2 my-sm-2">
+                        <h5 class="card-title text-center fw-bold fs-4 text-success">Madu Herbal</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="col-4 d-flex justify-content-center align-items-center mb-5">
+              <div class="card" style="width: 20rem">
+                <img src="./Asset/propolis.png" class="card-img-top" alt="jahe" />
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-12 my-lg-2 my-sm-2">
+                      <h5 class="card-title text-center fw-bold fs-4 text-success">British Propolis</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 d-flex justify-content-center align-items-center mb-5">
+              <div class="card" style="width: 20rem">
+                <img src="./Asset/jahe.png" class="card-img-top" alt="jahe" />
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-12 my-lg-2 my-sm-2">
+                      <h5 class="card-title text-center fw-bold fs-4 text-success">Serbuk Jahe</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 d-flex justify-content-center align-items-center mb-5">
+              <a href="#" class="text-decoration-none">
+                <div class="card" style="width: 20rem">
+                  <img src="./Asset/madu.png" class="card-img-top" alt="jahe" />
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-12 my-lg-2 my-sm-2">
+                        <h5 class="card-title text-center fw-bold fs-4 text-success">Madu Herbal</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="col-4 d-flex justify-content-center align-items-center mb-5">
+              <div class="card" style="width: 20rem">
+                <img src="./Asset/propolis.png" class="card-img-top" alt="jahe" />
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-12 my-lg-2 my-sm-2">
+                      <h5 class="card-title text-center fw-bold fs-4 text-success">British Propolis</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 d-flex justify-content-center align-items-center mb-5">
+              <div class="card" style="width: 20rem">
+                <img src="./Asset/jahe.png" class="card-img-top" alt="jahe" />
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-12 my-lg-2 my-sm-2">
+                      <h5 class="card-title text-center fw-bold fs-4 text-success">Serbuk Jahe</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 d-flex justify-content-center align-items-center mb-5">
+              <a href="#" class="text-decoration-none">
+                <div class="card" style="width: 20rem">
+                  <img src="./Asset/madu.png" class="card-img-top" alt="jahe" />
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-12 my-lg-2 my-sm-2">
+                        <h5 class="card-title text-center fw-bold fs-4 text-success">Madu Herbal</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="col-4 d-flex justify-content-center align-items-center mb-5">
+              <div class="card" style="width: 20rem">
+                <img src="./Asset/propolis.png" class="card-img-top" alt="jahe" />
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-12 my-lg-2 my-sm-2">
+                      <h5 class="card-title text-center fw-bold fs-4 text-success">British Propolis</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        var el = document.getElementById("wrapper");
+        var toggleButton = document.getElementById("menu-toggle");
+
+        toggleButton.onclick = function () {
+            el.classList.toggle("toggled");
+        };
+    </script>
+</body>
+
+</html>
